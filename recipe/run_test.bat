@@ -9,6 +9,9 @@ cmake -GNinja ..                         ^
     -DCMAKE_BUILD_TYPE=Release           ^
     -DCMAKE_PREFIX_PATH=%LIBRARY_PREFIX%
 ninja
+
+set PYTHONVERBOSE=2
+
 @REM app.exe
 
 @REM Executing app.exe in Windows is causing the following error (which will be figured out in the future time permitting!)

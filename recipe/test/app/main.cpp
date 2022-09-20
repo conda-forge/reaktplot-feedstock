@@ -7,12 +7,12 @@ int main(int argc, char** argv)
 
     Figure fig;
 
-    fig.titleText("SINE FUNCTION");
+    fig.title("SINE FUNCTION");
 
-    fig.xaxisTitleText("x");
-    fig.yaxisTitleText("y");
+    fig.xaxisTitle("x");
+    fig.yaxisTitle("y");
 
-    fig.addScatter(x, Array(std::sin(1.0 * x)), "sin(x)");
+    fig.drawLine(x, Array(std::sin(1.0 * x)), "sin(x)");
 
     fig.save("sine.pdf");
 }

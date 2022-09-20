@@ -12,5 +12,10 @@ pybind11_abi:
 - '4'
 python:
 - 3.9.* *_cpython
+python_impl:
+- cpython
 target_platform:
 - win-64
+zip_keys:
+- - python
+  - python_impl
