@@ -9,6 +9,9 @@ mkdir build
 cd build
 cmake -GNinja .. -DCMAKE_PREFIX_PATH=$PREFIX
 ninja
+
+export PYTHONVERBOSE=2
+
 # ./app
 
 # Ignoring execution of app above because it is failing for strange reasons in macOS (but working fine in Linux).
