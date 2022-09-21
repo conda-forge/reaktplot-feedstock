@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: reaktplot
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/reaktoro/reaktplot/archive/v{{ version }}.tar.gz
-  sha256: 4481cca15643e5cdc7ec06f200c44714696c74b1dbbdad7d979f4a1441651e22
+  sha256: 705e1f81a64f099498532b5eb0309dc0f522c23d1bff295fe45bd0900594a1d7
 
 build:
   number: 0  
