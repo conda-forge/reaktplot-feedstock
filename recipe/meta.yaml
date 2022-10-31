@@ -9,7 +9,7 @@ source:
   sha256: 705e1f81a64f099498532b5eb0309dc0f522c23d1bff295fe45bd0900594a1d7
 
 build:
-  number: 0
+  number: 1
   skip: true  # [python_impl == 'pypy']
 
 requirements:
