@@ -1,11 +1,11 @@
-About reaktplot
-===============
+About reaktplot-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/reaktplot-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/reaktoro/reaktplot
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/reaktplot-feedstock/blob/main/LICENSE.txt)
 
 Summary: reaktplot is an easy-to-use C++ and Python plotting library powered by plotly.
 
