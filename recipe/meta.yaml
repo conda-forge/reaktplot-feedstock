@@ -1,4 +1,4 @@
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
   name: reaktplot
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/reaktoro/reaktplot/archive/v{{ version }}.tar.gz
-  sha256: 37a882d0bf9c2a393321a0ed719fbf85dc6d3612ec50f2831bf9092dc1831ffb
+  sha256: 4ff00aa233dffe07cd852a218285b2065deaa83c2d2a432ebd6ed229ffd03187
 
 build:
   number: 0
@@ -20,6 +20,7 @@ requirements:
     - ninja
 
   host:
+    - multipledispatch
     - pip
     - plotly
     - pybind11
@@ -28,6 +29,7 @@ requirements:
     - python-kaleido
 
   run:
+    - multipledispatch
     - plotly
     - pybind11
     - python
