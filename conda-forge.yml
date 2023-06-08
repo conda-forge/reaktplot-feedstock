@@ -6,6 +6,6 @@ conda_build:
   pkg_format: '2'
 build_platform:
   osx_arm64: osx_64
-  # linux_ppc64le: linux_64
+  # linux_ppc64le: linux_64  # Disabling for now due to error finding python-kaleido for linux_ppc64le system.
   linux_aarch64: linux_64
 test: native_and_emulated
