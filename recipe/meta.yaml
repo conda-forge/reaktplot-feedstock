@@ -9,7 +9,7 @@ source:
   sha256: 61c1bea70edf438a2c07a7c29ed48635819698e4708f5e27af8cac42fb8ac918
 
 build:
-  number: 0
+  number: 1
   skip: true  # [python_impl == 'pypy']
 
 requirements:
@@ -18,6 +18,9 @@ requirements:
     - catch2 =2
     - cmake
     - ninja
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - pybind11                               # [build_platform != target_platform]
 
   host:
     - multipledispatch
