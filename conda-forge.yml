@@ -6,6 +6,6 @@ conda_build:
   pkg_format: '2'
 build_platform:
   osx_arm64: osx_64
-  linux_ppc64le: linux_64
-  linux_aarch64: linux_64
+  # linux_ppc64le: linux_64  # Disabling for now due to error: conda_build.exceptions.DependencyNeedsBuildingError: Unsatisfiable dependencies for platform linux-ppc64le: {MatchSpec("python-kaleido==0.1.0=pyhd8ed1ab_0"), MatchSpec("kaleido-core=0.1.0")}
+  # linux_aarch64: linux_64  # linux_aarch64 builds are failing at test stage
 test: native_and_emulated
