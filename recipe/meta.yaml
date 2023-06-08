@@ -29,14 +29,14 @@ requirements:
     - pybind11
     - pybind11-abi
     - python
-    - python-kaleido  # [target_platform != linux_ppc64le]
+    - python-kaleido
 
   run:
     - multipledispatch
     - plotly
     - pybind11
     - python
-    - python-kaleido  # [target_platform != linux_ppc64le]
+    - python-kaleido
 
 test:
   requires:
