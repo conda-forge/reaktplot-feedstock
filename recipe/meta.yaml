@@ -32,14 +32,14 @@ requirements:
     - pybind11-abi
     - python
     - pip:
-      - python-kaleido
+      - kaleido
   run:
     - multipledispatch
     - plotly
     - pybind11
     - python
     - pip:
-      - python-kaleido
+      - kaleido
 
 test:
   requires:
