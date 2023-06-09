@@ -29,15 +29,14 @@ requirements:
     - pybind11
     - pybind11-abi
     - python
-    - pip:
-      - python-kaleido
+    - python-kaleido
+
   run:
     - multipledispatch
     - plotly
     - pybind11
     - python
-    - pip:
-      - python-kaleido
+    - python-kaleido
 
 test:
   requires:

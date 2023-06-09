@@ -1,10 +1,5 @@
 #!/bin/sh
 
-# Skip the rest of this test script if we are on cross-compilation
-if [[ "$CONDA_BUILD_CROSS_COMPILATION" == "1" ]]; then
-  exit 0
-fi
-
 # Execute the Python test application using reaktplot
 python test/example.py
 
