@@ -1,11 +1,9 @@
+build_platform:
+  osx_arm64: osx_64
+conda_build:
+  pkg_format: '2'
+conda_forge_output_validation: true
 github:
   branch_name: main
   tooling_branch_name: main
-conda_forge_output_validation: true
-conda_build:
-  pkg_format: '2'
-build_platform:
-  osx_arm64: osx_64
-  # linux_ppc64le: linux_64  # Currently disabled because python-kaleido cannot be found as a dependency in the linux_ppc64le builds
-  # linux_aarch64: linux_64  # Currently disabled because saving plots to files produce runtime errors in linux_aarch64 builds
 test: native_and_emulated
