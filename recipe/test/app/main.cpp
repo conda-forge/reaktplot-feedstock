@@ -14,5 +14,6 @@ int main(int argc, char** argv)
 
     fig.drawLine(x, Array(std::sin(1.0 * x)), "sin(x)");
 
-    fig.save("sine.pdf");
+    // This depends on Kaleido, which is not being installed automatically
+    // fig.save("sine.pdf"); 
 }
