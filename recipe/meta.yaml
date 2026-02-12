@@ -30,14 +30,14 @@ requirements:
     - pybind11
     - pybind11-abi
     - python
-    - python-kaleido <=0.2.1
+    - python-kaleido <=0.1.0
     - setuptools
   run:
     - multipledispatch
     - plotly
     - pybind11
     - python
-    - python-kaleido <=0.2.1
+    - python-kaleido <=0.1.0
 
 test:
   requires:
