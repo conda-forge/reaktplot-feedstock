@@ -12,4 +12,4 @@ fig.yaxisTitle("y")
 
 fig.drawLine(x, y, "x**2")
 
-fig.save("xsquared.pdf")
+# fig.save("xsquared.pdf") # do not test with out kalido
